@@ -1,0 +1,4 @@
+AngularJS 2 CRUD Example application
+------------------------------------
+
+This is a CRUD example using AngularJS 2 + Patternfly. It will be the base for the AngularJS 2 addon for JBoss Forge
