@@ -3,7 +3,7 @@ module.exports = {
     index: "./src/main/javascript/entry.ts"
   },
   output: {
-    path: "./target/generated-web-resources/assets/",
+    path: "./target/demo-ang2/assets/",
     filename: "[name].js"
   },
   resolve: {
@@ -23,7 +23,7 @@ module.exports = {
     }]
   },
   devServer: {
-    publicPath: "/angular-boilerplate/assets/",
+    publicPath: "/demo-ang2/assets/",
     proxy: {
       "*": {
         target: 'http://localhost:8080'
