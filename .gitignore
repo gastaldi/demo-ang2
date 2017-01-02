@@ -18,3 +18,4 @@ atlassian-ide-plugin.xml
 .externalToolBuilders
 node
 node_modules
+yarn.lock
