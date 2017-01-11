@@ -1,6 +1,6 @@
 module.exports = {
   entry: {
-    index: "./src/main/javascript/entry.ts"
+    index: "./src/main/javascript/app.ts"
   },
   output: {
     path: "./target/demo-ang2/assets/",
