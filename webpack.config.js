@@ -1,6 +1,6 @@
 module.exports = {
   entry: {
-    index: "./src/main/javascript/app.ts"
+    index: "./src/main/javascript/main.ts"
   },
   output: {
     path: "./target/demo-ang2/assets/",
@@ -23,7 +23,7 @@ module.exports = {
     }]
   },
   devServer: {
-    publicPath: "/demo-ang2/assets/",
+    publicPath: "/assets/",
     proxy: {
       "*": {
         target: 'http://localhost:8080'
